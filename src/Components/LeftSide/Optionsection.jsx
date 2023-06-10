@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Optionsection() {
   return (
     <div className="optionsec">
-      <h2 className="name">Hi,Name aanchal</h2>
+      <h2 className="name">Hi Name,</h2>
       <div className="options">
         <div className="option">
           <svg

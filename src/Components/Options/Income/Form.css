@@ -1,0 +1,48 @@
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  width: 30%;
+}
+.formStyle .input-control input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #167f8b;
+  background: transparent;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+  color: var(--col2);
+  &::placeholder {
+    color: var(--col2);
+  }
+}
+.formStyle .input-control input:focus {
+  border: 2px solid #167f8b;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+}
+.formStyle .selects {
+  display: flex;
+  justify-content: flex-start;
+}
+.formStyle .input-control .selects select {
+  color: rgba(34, 34, 96, 0.4);
+  &:focus,
+  &:active {
+    color: rgba(34, 34, 96, 1);
+  }
+}
+
+/* Isko Abhi sahi krna hai ik baar firse */
+.formStyle .submit-btn button {
+  background-color: #167f8b;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
+  &:hover {
+    background: green !important;
+  }
+}
