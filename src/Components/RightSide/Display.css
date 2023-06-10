@@ -1,8 +1,11 @@
-.display
-{
-    height:90%;
-    width:58%;
-    background-color:var(--col4);
-    border-radius:5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+.display {
+  height: 90%;
+  width: 70%;
+  background-color: var(--col4);
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.display-text {
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
