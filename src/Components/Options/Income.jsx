@@ -9,6 +9,7 @@ function Income() {
     getIncomes()
     console.log(incomes);   
  },[])
+  
   return (
     <div className='income'>
         <h1>Income</h1>
@@ -31,6 +32,7 @@ function Income() {
                                 category={category} 
                                 indicatorColor="var(--color-green)"
                                 deleteItem={deleteIncome}
+
                         />
                     )
                 })
